@@ -1,0 +1,42 @@
+.welcome-banner{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold   ;
+    background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.787)),url(jumboBackground.jpg);
+    background-size: cover;
+}
+
+.modal-header{
+    background-image: url(modalBanner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.intro-text-container{
+    width: 35%;
+    margin-top: 5rem;
+}
+
+
+.section1{
+    margin-top: 5rem;
+    /* border: 1px solid black; */
+}
+
+
+
+.picks-list{
+    /* border: 1px solid black; */
+    text-align: center;
+    list-style: upper-roman;
+    display: flex;
+    flex-wrap: wrap;
+    position: center;
+    justify-content: space-evenly;
+}
+
+.list-item{
+    margin-top: 3rem;
+    margin-right: 3rem;
+}

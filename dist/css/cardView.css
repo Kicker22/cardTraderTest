@@ -1,0 +1,17 @@
+.card-view{
+    border: 1px solid black;
+    background:rgba(255, 255, 255, 0.377);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-img{
+    border: 1px solid black;
+    height: 20rem;
+    width: 30%;
+}
+
+.card-info{
+    border: 1px solid black;
+    width: 60%;
+}
