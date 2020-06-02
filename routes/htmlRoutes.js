@@ -23,9 +23,4 @@ module.exports = function(app) {
   app.get("/Search", function(req, res) {
     res.sendFile(path.join(__dirname, "../dist/html/cardSearch.html"));
   });
-
-  // If no matching route is found default to home
-  app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "../dist/html/index.html"));
-  });
 };

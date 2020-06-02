@@ -23,8 +23,7 @@ require("./routes/htmlRoutes")(app);
 
 
 
-// app.use(express.static(__dirname + "/app/html"));
-app.use(express.static(__dirname + "/dist/html"));
+// app.use(express.static(__dirname + "/dist/html"));
 app.use(express.static(__dirname + "/dist/css"));
 app.use(express.static(__dirname + "/dist/JS"));
 app.use(express.static(__dirname + "/dist/img"));
