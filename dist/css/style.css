@@ -44,7 +44,7 @@ img {
 }
 
 .navbar{
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
     padding-top: 0.3rem;
     padding-bottom: 0.3;
 }
@@ -72,6 +72,17 @@ img {
 
 .navbar .nav a:hover {
  color: #555;
+}
+
+.nav-btn{
+    color: white;
+    background-color: rgba(16, 88, 6, 0.76);
+    border-radius: 10px;
+}
+.nav-btn:hover{
+    color: white;
+    background-color: rgba(87, 60, 30, 0.938);
+    border-radius: 10px;
 }
 
 /* section-a */
@@ -247,9 +258,9 @@ img {
 
 /* Utilities */
 
-.btn{
+.default-btn{
     display: inline-block;
-    background:  var(--primary-color);
+    background:  rgba(16, 88, 6, 0.76);
     color: #fff;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -258,8 +269,9 @@ img {
     border-radius: 30px;
 }
 
-.btn:hover{
+.default-btn:hover{
     background: var(--secondary-color);
+    color: white;
 }
 
 .overlay{
