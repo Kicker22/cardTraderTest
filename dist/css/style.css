@@ -122,7 +122,6 @@ img {
 .section-b-inner{
     color: white;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,29 +149,39 @@ img {
 /* section-c */
 
 .section-c{
-    margin: 2rem 0;
-    margin-top: 5rem;
-    height: 500px;
+    position: relative;
+    /* height: 600px; */
 }
 
-.section-c .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3rem;
+.section-c-inner{
+    color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
 }
 
+.section-c-inner div{
+    margin: 5rem 0;
+}
+.section-c-inner h3{
+    font-size: 2rem;
+}
+.section-c-inner h2{
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+.section-c-inner p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
 
-.section-c h1 {
-    font-size: 4rem;
-    color: var( --primary-color);
 }
 
-.section-c p{
-    margin: 1rem 0;
-    font-size: 26px;
-}
 
 
 /* Footer */
@@ -209,6 +218,9 @@ img {
     color: #555;
     margin-right: 0.5rem;
 }
+
+
+
 
 /* email form */
 .email-form{
