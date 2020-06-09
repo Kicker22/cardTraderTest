@@ -291,13 +291,30 @@ img {
         grid-template-columns: 1fr;
         text-align: center;
     }
-
+ 
     .section-a .container div:first-child{
         order: 2;
     }
     .section-a .container div:last-child{
         order: -1;
     }
+
+    .section-c .container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .section-c .container div:first-child{
+        order: 2;
+    }
+    .section-c .container div:last-child{
+        order: -1;
+    }
+
+    .section-c-inner h1 {
+        font-size: 3rem;
+    }
+
 
     .section-a img {
         width: 80%;
