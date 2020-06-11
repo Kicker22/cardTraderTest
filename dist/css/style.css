@@ -275,6 +275,14 @@ img {
     color: white;
 }
 
+.sign-up-links{
+    display: flex;
+    flex-direction: row;
+}
+.sign-up-links .nav-link{
+    color: white;
+}
+
 .overlay{
     position: absolute;
     top: 0 ;
