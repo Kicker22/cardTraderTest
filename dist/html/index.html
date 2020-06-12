@@ -56,13 +56,13 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          <form action="/subscribe/add" method="POST">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              <input type="email" name="subscriber_email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <button type="submit" value="Subscribe" class="btn btn-primary">Subscribe</button>
           </form>
         </div>
         <div class="modal-footer">
@@ -168,12 +168,12 @@
       <div>
         <h3>Subscribe</h3>
         <p>Take advantage of our monthly news letter.</p>
-        <form name="email-form" method="POST" data-netlify="true">
+        <form action="/subscribe/add" method="POST">
           <div class="email-form">
             <span class="form-control-wrap">
-              <input type="email" name="email" id="email" size="40" class="form-control" placeholder="email" />
+              <input type="email" name="subscriber_email" id="email" size="40" class="form-control" placeholder="email" />
             </span>
-            <button type="submit" class="form-control submit">
+            <button type="submit" value="Subscribe" class="form-control submit">
               <i class="fas fa-chevron-right"></i>
             </button>
           </div>
