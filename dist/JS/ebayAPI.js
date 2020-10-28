@@ -10,12 +10,18 @@ function loadEventListeners(){
   searchBtn.addEventListener('click',searchOnSubmit)
 }
 
+function clearSearch(e){
+  document.getElementById("results").innerHTML = "";
+}
+
 
 function searchOnSubmit(e){
   e.preventDefault();
-
- searchEbayAPI();
+    clearSearch();
+    searchEbayAPI();
 }
+
+
 
 
 
