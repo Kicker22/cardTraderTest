@@ -38,6 +38,27 @@
   color: red;
 }
 
+.section-a{
+  border: 1px solid black;
+}
+.section-a .body-container{
+  border: 1px solid black;
+}
+
+
+/* section-b */
+
+.section-b{
+  margin-top: 3rem;
+}
+
+.searchResults{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 
 
 
